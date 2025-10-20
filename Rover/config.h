@@ -7,6 +7,57 @@
 #endif
 
 //////////////////////////////////////////////////////////////////////////////
+// Defaults for Fenix Parameters
+//
+#ifndef DEFAULT_TMP_CON
+  #define DEFAULT_TMP_CON	0.0f
+#endif
+
+#ifndef DEFAULT_TMP_MTR
+  #define DEFAULT_TMP_MTR	0.0f
+#endif
+
+#ifndef DEFAULT_V_BAR
+  #define DEFAULT_V_BAR		0.0f
+#endif
+
+#ifndef DEFAULT_I_CON
+  #define DEFAULT_I_CON		0.0f
+#endif
+
+#ifndef DEFAULT_RPM
+  #define DEFAULT_RPM		0
+#endif
+
+#ifndef DEFAULT_ACC
+  #define DEFAULT_ACC		0
+#endif
+
+#ifndef DEFAULT_FEN_AUX1
+  #define DEFAULT_FEN_AUX1	0.0f
+#endif
+
+#ifndef DEFAULT_FEN_AUX2
+  #define DEFAULT_FEN_AUX2	0.0f
+#endif
+
+#ifndef DEFAULT_FEN_AUX3
+  #define DEFAULT_FEN_AUX3	0.0f
+#endif
+
+#ifndef DEFAULT_FEN_AUX4
+  #define DEFAULT_FEN_AUX4	0
+#endif
+
+#ifndef DEFAULT_FEN_AUX5
+  #define DEFAULT_FEN_AUX5	0
+#endif
+
+#ifndef DEFAULT_FEN_AUX6
+  #define DEFAULT_FEN_AUX6	0
+#endif
+
+//////////////////////////////////////////////////////////////////////////////
 // FrSky telemetry support
 //
 

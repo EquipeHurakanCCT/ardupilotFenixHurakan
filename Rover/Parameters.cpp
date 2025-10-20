@@ -33,6 +33,84 @@ const AP_Param::Info Rover::var_info[] = {
     // @User: Advanced
     GSCALAR(initial_mode,        "INITIAL_MODE",     (int8_t)Mode::Number::MANUAL),
 
+    // @Param: TMP_CON
+    // @DisplayName: Temperatura do Conversor
+    // @Description: Parametro que salva o valor medido da temperatura do conversor.
+    // @Range: 0 999
+    // @User: Standard
+    GSCALAR(tmp_con,        "TMP_CON",     DEFAULT_TMP_CON),
+
+    // @Param: TMP_MTR
+    // @DisplayName: Temperatura do Motor
+    // @Description: Parametro que salva o valor medido da temperatura do motor.
+    // @Range: 0 999
+    // @User: Standard
+    GSCALAR(tmp_mtr,        "TMP_MTR",     DEFAULT_TMP_MTR),
+
+    // @Param: V_BAR
+    // @DisplayName: Tensao no barramento
+    // @Description: Parametro que salva o valor medido da tensao no barramento.
+    // @Range: 0 999
+    // @User: Standard
+    GSCALAR(v_bar,        "V_BAR",     DEFAULT_V_BAR),
+
+    // @Param: I_CON
+    // @DisplayName: Corrente no conversor
+    // @Description: Parametro que salva o valor medido da corrente no conversor.
+    // @Range: 0 999
+    // @User: Standard
+    GSCALAR(i_con,        "I_CON",     DEFAULT_I_CON),
+
+    // @Param: RPM
+    // @DisplayName: Rotacoes por minuto
+    // @Description: Parametro que salva o valor medido das rotacoes por minuto no motor.
+    // @Range: 0 20000
+    // @User: Standard
+    GSCALAR(rpm,        "RPM",     DEFAULT_RPM),
+
+    // @Param: ACC
+    // @DisplayName: Aceleracao
+    // @Description: Parametro que salva o valor medido no sensor do acelerador.
+    // @Range: -255 255
+    // @User: Standard
+    GSCALAR(acc,        "ACC",     DEFAULT_ACC),
+
+    // @Param: FEN_AUX1
+    // @DisplayName: Auxiliar 1
+    // @Description: Parametro auxiliar do Fenix.
+    // @User: Standard
+    GSCALAR(fen_aux1,        "FEN_AUX1",     DEFAULT_FEN_AUX1),
+
+    // @Param: FEN_AUX2
+    // @DisplayName: Auxiliar 2
+    // @Description: Parametro auxiliar do Fenix.
+    // @User: Standard
+    GSCALAR(fen_aux2,        "FEN_AUX2",     DEFAULT_FEN_AUX2),
+
+    // @Param: FEN_AUX3
+    // @DisplayName: Auxiliar 3
+    // @Description: Parametro auxiliar do Fenix.
+    // @User: Standard
+    GSCALAR(fen_aux3,        "FEN_AUX3",     DEFAULT_FEN_AUX3),
+
+    // @Param: FEN_AUX4
+    // @DisplayName: Auxiliar 4
+    // @Description: Parametro auxiliar do Fenix.
+    // @User: Standard
+    GSCALAR(fen_aux4,        "FEN_AUX4",     DEFAULT_FEN_AUX4),
+
+    // @Param: FEN_AUX5
+    // @DisplayName: Auxiliar 5
+    // @Description: Parametro auxiliar do Fenix.
+    // @User: Standard
+    GSCALAR(fen_aux5,        "FEN_AUX5",     DEFAULT_FEN_AUX5),
+
+    // @Param: FEN_AUX6
+    // @DisplayName: Auxiliar 6
+    // @Description: Parametro auxiliar do Fenix.
+    // @User: Standard
+    GSCALAR(fen_aux6,        "FEN_AUX6",     DEFAULT_FEN_AUX6),
+
     // SYSID_THISMAV was here
 
     // SYSID_MYGCS was here

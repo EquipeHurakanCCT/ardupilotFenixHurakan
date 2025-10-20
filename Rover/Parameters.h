@@ -51,6 +51,22 @@ public:
         k_param_rc_13_old,  // unused
         k_param_rc_14_old,  // unused
 
+	// Parameters for Fenix Hurakan
+	//
+	k_param_tmp_con,
+	k_param_tpm_mtr,
+	k_param_v_bar,
+	k_param_i_con,
+	k_param_rpm,
+	k_param_acc,
+	k_param_fen_aux1,
+	k_param_fen_aux2,
+	k_param_fen_aux3,
+	k_param_fen_aux4,
+	k_param_fen_aux5,
+	k_param_fen_aux6,
+
+
         // IO pins
         k_param_rssi_pin = 20,  // unused, replaced by rssi_ library parameters
         k_param_battery_volt_pin,
@@ -240,6 +256,21 @@ public:
     AP_Int32    log_bitmask;
     AP_Int8     reset_switch_chan;
     AP_Int8     initial_mode;
+
+    // Parameters for Fenix Hurakan
+    //
+    AP_Float	tmp_con;
+    AP_Float	tpm_mtr;
+    AP_Float	v_bar;
+    AP_Float	i_con;
+    AP_Int16	rpm;
+    AP_Int8	acc;
+    AP_Float	fen_aux1;
+    AP_Float	fen_aux2;
+    AP_Float	fen_aux3;
+    AP_Int32	fen_aux4;
+    AP_Int16	fen_aux5;
+    AP_Int16	fen_aux6;
 
     // navigation parameters
     //
