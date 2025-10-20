@@ -54,7 +54,7 @@ public:
 	// Parameters for Fenix Hurakan
 	//
 	k_param_tmp_con,
-	k_param_tpm_mtr,
+	k_param_tmp_mtr,
 	k_param_v_bar,
 	k_param_i_con,
 	k_param_rpm,
@@ -260,7 +260,7 @@ public:
     // Parameters for Fenix Hurakan
     //
     AP_Float	tmp_con;
-    AP_Float	tpm_mtr;
+    AP_Float	tmp_mtr;
     AP_Float	v_bar;
     AP_Float	i_con;
     AP_Int16	rpm;
